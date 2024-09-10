@@ -60,7 +60,7 @@ def MAT_prod(A, B):
     if cols_A != rows_B:
         raise ValueError("Number of columns in A must be equal to the number of rows in B.")
 
-    # Eesult matrix full of zeros
+    # Result matrix full of zeros
     result = [[0 for _ in range(cols_B)] for _ in range(rows_A)]
 
     # Calculate the product of matrices
