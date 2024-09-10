@@ -166,10 +166,10 @@ def print_NN_func_homework(W, b, U, C):
 
 def main():
     # matrices and vectors of weights and biases for the given boolean function
-    W = [[2, 2, -2],
-         [0, -2, 2]]
+    W = [[1, 1, -1],
+         [0, -1, 1]]
 
-    b = [[-3],
+    b = [[-2],
          [-1]]
 
     U = [[1, 1]]
